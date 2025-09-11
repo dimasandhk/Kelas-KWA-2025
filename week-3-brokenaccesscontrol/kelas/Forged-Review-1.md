@@ -14,7 +14,7 @@ setelah itu coba lakukan post review product seperti biasanya pada web dan sambi
 
 <img src="./img/12.png" />
 
-dapat dilihat payload berisikan author yang mana seharusnya tidak perlu menginclude payload author karena sudah ada bearer token untuk mengautentikasi user yang mengirim review. Jika payload seperti itu, asumsinya kita bisa mengubah authornya sesuka hati kita walaupun kita tidak terlogin ke akun yang bersangkutan
+dapat dilihat payload berisikan author yang mana seharusnya tidak perlu menginclude payload author karena sudah ada bearer token untuk mengautentikasi user dan mengauthorize user yang mengirim review. Jika payload seperti itu, asumsinya kita bisa mengubah authornya sesuka hati kita walaupun kita tidak terlogin ke akun yang bersangkutan
 
 <img src="./img/11.png" />
 
